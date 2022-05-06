@@ -13,6 +13,7 @@
 		EE74BDE228252CB3009DBA5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE74BDE028252CB3009DBA5D /* Main.storyboard */; };
 		EE74BDE428252CB6009DBA5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE74BDE328252CB6009DBA5D /* Assets.xcassets */; };
 		EE74BDE728252CB6009DBA5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE74BDE528252CB6009DBA5D /* LaunchScreen.storyboard */; };
+		EE74BDF028253594009DBA5D /* Logins.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EE74BDEE28253594009DBA5D /* Logins.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		EE74BDE328252CB6009DBA5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE74BDE628252CB6009DBA5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE74BDE828252CB6009DBA5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE74BDEF28253594009DBA5D /* Logins.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Logins.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				EE74BDE328252CB6009DBA5D /* Assets.xcassets */,
 				EE74BDE528252CB6009DBA5D /* LaunchScreen.storyboard */,
 				EE74BDE828252CB6009DBA5D /* Info.plist */,
+				EE74BDEE28253594009DBA5D /* Logins.xcdatamodeld */,
 			);
 			path = "iosGroup assignment";
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 				EE74BDDF28252CB3009DBA5D /* ViewController.swift in Sources */,
 				EE74BDDB28252CB3009DBA5D /* AppDelegate.swift in Sources */,
 				EE74BDDD28252CB3009DBA5D /* SceneDelegate.swift in Sources */,
+				EE74BDF028253594009DBA5D /* Logins.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,6 +362,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EE74BDEE28253594009DBA5D /* Logins.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EE74BDEF28253594009DBA5D /* Logins.xcdatamodel */,
+			);
+			currentVersion = EE74BDEF28253594009DBA5D /* Logins.xcdatamodel */;
+			path = Logins.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = EE74BDCF28252CB3009DBA5D /* Project object */;
 }
