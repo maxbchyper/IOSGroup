@@ -14,6 +14,9 @@
 		EE74BDE428252CB6009DBA5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE74BDE328252CB6009DBA5D /* Assets.xcassets */; };
 		EE74BDE728252CB6009DBA5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE74BDE528252CB6009DBA5D /* LaunchScreen.storyboard */; };
 		EE74BDF028253594009DBA5D /* Logins.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EE74BDEE28253594009DBA5D /* Logins.xcdatamodeld */; };
+		EE74BDF62834DB73009DBA5D /* Movies.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE74BDF52834DB73009DBA5D /* Movies.swift */; };
+		EE74BDF92834DC06009DBA5D /* MovieServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE74BDF82834DC06009DBA5D /* MovieServices.swift */; };
+		EE74BDFC2834DE7B009DBA5D /* MovieStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE74BDFB2834DE7B009DBA5D /* MovieStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		EE74BDE628252CB6009DBA5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE74BDE828252CB6009DBA5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE74BDEF28253594009DBA5D /* Logins.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Logins.xcdatamodel; sourceTree = "<group>"; };
+		EE74BDF52834DB73009DBA5D /* Movies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movies.swift; sourceTree = "<group>"; };
+		EE74BDF82834DC06009DBA5D /* MovieServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieServices.swift; sourceTree = "<group>"; };
+		EE74BDFB2834DE7B009DBA5D /* MovieStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +67,9 @@
 				EE74BDDA28252CB3009DBA5D /* AppDelegate.swift */,
 				EE74BDDC28252CB3009DBA5D /* SceneDelegate.swift */,
 				EE74BDDE28252CB3009DBA5D /* ViewController.swift */,
+				EE74BDF82834DC06009DBA5D /* MovieServices.swift */,
+				EE74BDFB2834DE7B009DBA5D /* MovieStore.swift */,
+				EE74BDF52834DB73009DBA5D /* Movies.swift */,
 				EE74BDE028252CB3009DBA5D /* Main.storyboard */,
 				EE74BDE328252CB6009DBA5D /* Assets.xcassets */,
 				EE74BDE528252CB6009DBA5D /* LaunchScreen.storyboard */,
@@ -141,9 +150,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE74BDF62834DB73009DBA5D /* Movies.swift in Sources */,
 				EE74BDDF28252CB3009DBA5D /* ViewController.swift in Sources */,
+				EE74BDFC2834DE7B009DBA5D /* MovieStore.swift in Sources */,
 				EE74BDDB28252CB3009DBA5D /* AppDelegate.swift in Sources */,
 				EE74BDDD28252CB3009DBA5D /* SceneDelegate.swift in Sources */,
+				EE74BDF92834DC06009DBA5D /* MovieServices.swift in Sources */,
 				EE74BDF028253594009DBA5D /* Logins.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
