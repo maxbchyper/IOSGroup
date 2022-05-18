@@ -67,9 +67,8 @@
 				EE74BDDA28252CB3009DBA5D /* AppDelegate.swift */,
 				EE74BDDC28252CB3009DBA5D /* SceneDelegate.swift */,
 				EE74BDDE28252CB3009DBA5D /* ViewController.swift */,
-				EE74BDF82834DC06009DBA5D /* MovieServices.swift */,
-				EE74BDFB2834DE7B009DBA5D /* MovieStore.swift */,
-				EE74BDF52834DB73009DBA5D /* Movies.swift */,
+				EE74BDFD2834E093009DBA5D /* Services */,
+				EE74BDFE2834E0A8009DBA5D /* Model */,
 				EE74BDE028252CB3009DBA5D /* Main.storyboard */,
 				EE74BDE328252CB6009DBA5D /* Assets.xcassets */,
 				EE74BDE528252CB6009DBA5D /* LaunchScreen.storyboard */,
@@ -77,6 +76,23 @@
 				EE74BDEE28253594009DBA5D /* Logins.xcdatamodeld */,
 			);
 			path = "iosGroup assignment";
+			sourceTree = "<group>";
+		};
+		EE74BDFD2834E093009DBA5D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				EE74BDF82834DC06009DBA5D /* MovieServices.swift */,
+				EE74BDFB2834DE7B009DBA5D /* MovieStore.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		EE74BDFE2834E0A8009DBA5D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EE74BDF52834DB73009DBA5D /* Movies.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
