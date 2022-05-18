@@ -36,7 +36,7 @@
 		EE74BDEF28253594009DBA5D /* Logins.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Logins.xcdatamodel; sourceTree = "<group>"; };
 		EE74BDF52834DB73009DBA5D /* Movies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movies.swift; sourceTree = "<group>"; };
 		EE74BDF82834DC06009DBA5D /* MovieService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieService.swift; sourceTree = "<group>"; };
-		EE74BDFB2834DE7B009DBA5D /* MovieStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieStore.swift; sourceTree = "<group>"; };
+		EE74BDFB2834DE7B009DBA5D /* MovieStore.swift */ = {isa = PBXFileReference; indentWidth = 5; lastKnownFileType = sourcecode.swift; path = MovieStore.swift; sourceTree = "<group>"; };
 		EE74BDFF2834F739009DBA5D /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		EE74BE012834F782009DBA5D /* TopRatedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopRatedViewController.swift; sourceTree = "<group>"; };
 		EE74BE032834F794009DBA5D /* PopularViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularViewController.swift; sourceTree = "<group>"; };
@@ -75,6 +75,7 @@
 				EE74BDDA28252CB3009DBA5D /* AppDelegate.swift */,
 				EE74BDDC28252CB3009DBA5D /* SceneDelegate.swift */,
 				EE74BDDE28252CB3009DBA5D /* ViewController.swift */,
+				EE0F484C283500E400451EE4 /* Utils.swift */,
 				EE74BE052834F79A009DBA5D /* ViewControllers */,
 				EE74BDFD2834E093009DBA5D /* Services */,
 				EE74BDFE2834E0A8009DBA5D /* Model */,
@@ -83,7 +84,6 @@
 				EE74BDE528252CB6009DBA5D /* LaunchScreen.storyboard */,
 				EE74BDE828252CB6009DBA5D /* Info.plist */,
 				EE74BDEE28253594009DBA5D /* Logins.xcdatamodeld */,
-				EE0F484C283500E400451EE4 /* Utils.swift */,
 			);
 			path = "iosGroup assignment";
 			sourceTree = "<group>";
