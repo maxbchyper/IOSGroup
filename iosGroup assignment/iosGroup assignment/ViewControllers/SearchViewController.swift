@@ -1,16 +1,21 @@
 //
-//  PopularViewController.swift
+//  ViewController.swift
 //  iosGroup assignment
 //
-//  Created by Claire Ongley on 18/5/22.
+//  Created by Claire Ongley on 6/5/22.
 //
 
-import Foundation
+
+// Chenglin Zhang
 import UIKit
 
-class PopularViewController: UIViewController{
+class SearchViewController: UIViewController {
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
+
+
 }
+

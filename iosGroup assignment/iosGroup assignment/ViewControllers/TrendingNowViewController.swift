@@ -1,21 +1,16 @@
 //
-//  ViewController.swift
+//  PopularViewController.swift
 //  iosGroup assignment
 //
-//  Created by Claire Ongley on 6/5/22.
+//  Created by Claire Ongley on 18/5/22.
 //
 
-
-// Chenglin Zhang
+import Foundation
 import UIKit
 
-class ViewController: UIViewController {
-
+class TrendingNowViewController: UIViewController{
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
-
 }
-
