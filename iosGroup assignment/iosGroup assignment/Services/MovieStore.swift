@@ -31,7 +31,8 @@ class MovieStore: MovieService {
     
     private func loadURLAndDecode<D:Decodable>(url: URL, params:[String:String]? = nil, completion: @escaping (Result<D,MovieError>) -> ()){
         guard var urlComponents = URLComponents(url:url, resolvingAgainstBaseURL: false) else {
-            completion(.failure(apiError))
+            completion(.failure(.invalidEndpoint))
+            return
         }
     }
     
