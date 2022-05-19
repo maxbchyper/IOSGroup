@@ -28,9 +28,13 @@ class SearchViewController: UIViewController {
                 let json = try JSONSerialization.jsonObject(with: data!) as! Dictionary<String, AnyObject>
                 let result:NSArray = (json["results"] as! NSArray)
                 var eachDic:NSDictionary
+                var number = 0
                 for each in result{
                     eachDic = each as! NSDictionary
-                    print(eachDic["title"] ?? "No title")
+                    number += 1
+                    let resultString = String(describing: eachDic["title"])
+                    print(type(of: resultString))
+                    print("Title: " + resultString)
                     print(eachDic["id"] ?? "No id")
                     print("-----------------")
                 }
@@ -42,9 +46,7 @@ class SearchViewController: UIViewController {
 
         task.resume()
     }
-    
-    @IBOutlet weak var tableValue: UITableView!
-    
+        
     
 }
 

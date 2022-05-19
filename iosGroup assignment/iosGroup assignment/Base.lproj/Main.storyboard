@@ -78,22 +78,17 @@
                                 <rect key="frame" x="37" y="78" width="170" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
-                                <connections>
-                                    <action selector="SearchText:" destination="AFU-I5-ZPF" eventType="editingDidEnd" id="NT3-eR-QGs"/>
-                                    <action selector="SearchValue:" destination="AFU-I5-ZPF" eventType="editingChanged" id="a33-WU-7Cb"/>
-                                </connections>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qp6-Zd-OW7">
                                 <rect key="frame" x="251" y="78" width="69" height="31"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Search"/>
                                 <connections>
-                                    <action selector="Search:" destination="AFU-I5-ZPF" eventType="touchUpInside" id="2OY-rN-RFh"/>
+                                    <action selector="Search:" destination="AFU-I5-ZPF" eventType="touchUpInside" id="Glj-DJ-unZ"/>
                                 </connections>
                             </button>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="XNc-OZ-bQv">
-                                <rect key="frame" x="16" y="128" width="343" height="467"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="VEn-77-lH9">
+                                <rect key="frame" x="27" y="176" width="320" height="348"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </tableView>
                         </subviews>
@@ -105,6 +100,7 @@
                             <constraint firstItem="tdW-TJ-8wY" firstAttribute="leading" secondItem="7Wd-Vr-CXg" secondAttribute="leading" constant="16" id="GxL-gg-mhf"/>
                             <constraint firstItem="7Wd-Vr-CXg" firstAttribute="trailing" secondItem="Qp6-Zd-OW7" secondAttribute="trailing" constant="55" id="IG3-sT-bQF"/>
                             <constraint firstItem="Qp6-Zd-OW7" firstAttribute="top" secondItem="tdW-TJ-8wY" secondAttribute="bottom" constant="25" id="QhA-u1-v2y"/>
+                            <constraint firstItem="7Wd-Vr-CXg" firstAttribute="bottom" secondItem="VEn-77-lH9" secondAttribute="bottom" constant="94" id="Sz2-0z-8UR"/>
                             <constraint firstItem="Qp6-Zd-OW7" firstAttribute="width" secondItem="U8w-VX-ozr" secondAttribute="height" multiplier="3:29" id="Wdi-jm-9JD"/>
                             <constraint firstItem="tdW-TJ-8wY" firstAttribute="top" secondItem="7Wd-Vr-CXg" secondAttribute="top" constant="20" id="egH-u9-2gf"/>
                             <constraint firstItem="UyE-kd-qsn" firstAttribute="width" secondItem="U8w-VX-ozr" secondAttribute="height" multiplier="170:667" id="obx-73-56E"/>
@@ -113,8 +109,7 @@
                     <tabBarItem key="tabBarItem" title="Search" image="magnifyingglass" catalog="system" id="MRt-fi-vVU"/>
                     <navigationItem key="navigationItem" id="CNq-7i-Ban"/>
                     <connections>
-                        <outlet property="searchValue" destination="UyE-kd-qsn" id="9Ng-ZW-U0L"/>
-                        <outlet property="tableValue" destination="XNc-OZ-bQv" id="SQn-r1-tdN"/>
+                        <outlet property="SearchValueInput" destination="UyE-kd-qsn" id="wOQ-bW-8Nu"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PCV-Ce-y7W" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
