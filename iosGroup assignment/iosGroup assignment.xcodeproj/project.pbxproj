@@ -13,6 +13,8 @@
 		EE6D1726283643F50015DDDD /* MovieService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6D1725283643F50015DDDD /* MovieService.swift */; };
 		EE6D1729283646540015DDDD /* MovieStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6D1728283646540015DDDD /* MovieStore.swift */; };
 		EE6D172B283646EA0015DDDD /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6D172A283646EA0015DDDD /* Utils.swift */; };
+		EE6D172D28364EE60015DDDD /* Movie+Stub.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6D172C28364EE60015DDDD /* Movie+Stub.swift */; };
+		EE6D1730283650210015DDDD /* movie_list.json in Resources */ = {isa = PBXBuildFile; fileRef = EE6D172F283650210015DDDD /* movie_list.json */; };
 		EE74BDDB28252CB3009DBA5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE74BDDA28252CB3009DBA5D /* AppDelegate.swift */; };
 		EE74BDDD28252CB3009DBA5D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE74BDDC28252CB3009DBA5D /* SceneDelegate.swift */; };
 		EE74BDDF28252CB3009DBA5D /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE74BDDE28252CB3009DBA5D /* SearchViewController.swift */; };
@@ -32,6 +34,8 @@
 		EE6D1725283643F50015DDDD /* MovieService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieService.swift; sourceTree = "<group>"; };
 		EE6D1728283646540015DDDD /* MovieStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieStore.swift; sourceTree = "<group>"; };
 		EE6D172A283646EA0015DDDD /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		EE6D172C28364EE60015DDDD /* Movie+Stub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Movie+Stub.swift"; sourceTree = "<group>"; };
+		EE6D172F283650210015DDDD /* movie_list.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = movie_list.json; path = ../../../../../Downloads/movie_list.json; sourceTree = "<group>"; };
 		EE74BDD728252CB3009DBA5D /* iosGroup assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iosGroup assignment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE74BDDA28252CB3009DBA5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EE74BDDC28252CB3009DBA5D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				EE6D17222836436A0015DDDD /* Movie.swift */,
+				EE6D172C28364EE60015DDDD /* Movie+Stub.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -73,6 +78,14 @@
 				EE6D1728283646540015DDDD /* MovieStore.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		EE6D172E28364FCE0015DDDD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EE6D172F283650210015DDDD /* movie_list.json */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		EE74BDCE28252CB3009DBA5D = {
@@ -97,6 +110,7 @@
 				EE74BDDA28252CB3009DBA5D /* AppDelegate.swift */,
 				EE74BDDC28252CB3009DBA5D /* SceneDelegate.swift */,
 				EE6D172A283646EA0015DDDD /* Utils.swift */,
+				EE6D172E28364FCE0015DDDD /* Resources */,
 				EE6D1727283643FC0015DDDD /* Services */,
 				EE6D1724283643720015DDDD /* Model */,
 				EE74BE052834F79A009DBA5D /* ViewControllers */,
@@ -181,6 +195,7 @@
 			files = (
 				EE74BDE728252CB6009DBA5D /* LaunchScreen.storyboard in Resources */,
 				EE74BDE428252CB6009DBA5D /* Assets.xcassets in Resources */,
+				EE6D1730283650210015DDDD /* movie_list.json in Resources */,
 				EE74BDE228252CB3009DBA5D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -202,6 +217,7 @@
 				EE0F484F28350CDB00451EE4 /* SignInViewController.swift in Sources */,
 				EE74BE042834F794009DBA5D /* TrendingNowViewController.swift in Sources */,
 				EE6D172128361C450015DDDD /* ApiServices.swift in Sources */,
+				EE6D172D28364EE60015DDDD /* Movie+Stub.swift in Sources */,
 				EE74BDF028253594009DBA5D /* Logins.xcdatamodeld in Sources */,
 				EE74BE022834F782009DBA5D /* TopRatedViewController.swift in Sources */,
 				EE6D1726283643F50015DDDD /* MovieService.swift in Sources */,
