@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		EE0F484F28350CDB00451EE4 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0F484E28350CDB00451EE4 /* SignInViewController.swift */; };
+		EE6D172128361C450015DDDD /* ApiServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6D172028361C450015DDDD /* ApiServices.swift */; };
 		EE74BDDB28252CB3009DBA5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE74BDDA28252CB3009DBA5D /* AppDelegate.swift */; };
 		EE74BDDD28252CB3009DBA5D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE74BDDC28252CB3009DBA5D /* SceneDelegate.swift */; };
 		EE74BDDF28252CB3009DBA5D /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE74BDDE28252CB3009DBA5D /* SearchViewController.swift */; };
@@ -22,6 +23,7 @@
 
 /* Begin PBXFileReference section */
 		EE0F484E28350CDB00451EE4 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		EE6D172028361C450015DDDD /* ApiServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiServices.swift; sourceTree = "<group>"; };
 		EE74BDD728252CB3009DBA5D /* iosGroup assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iosGroup assignment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE74BDDA28252CB3009DBA5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EE74BDDC28252CB3009DBA5D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 			children = (
 				EE74BDDA28252CB3009DBA5D /* AppDelegate.swift */,
 				EE74BDDC28252CB3009DBA5D /* SceneDelegate.swift */,
+				EE6D172028361C450015DDDD /* ApiServices.swift */,
 				EE74BE052834F79A009DBA5D /* ViewControllers */,
 				EE74BDE028252CB3009DBA5D /* Main.storyboard */,
 				EE74BDE328252CB6009DBA5D /* Assets.xcassets */,
@@ -167,6 +170,7 @@
 				EE74BDDD28252CB3009DBA5D /* SceneDelegate.swift in Sources */,
 				EE0F484F28350CDB00451EE4 /* SignInViewController.swift in Sources */,
 				EE74BE042834F794009DBA5D /* TrendingNowViewController.swift in Sources */,
+				EE6D172128361C450015DDDD /* ApiServices.swift in Sources */,
 				EE74BDF028253594009DBA5D /* Logins.xcdatamodeld in Sources */,
 				EE74BE022834F782009DBA5D /* TopRatedViewController.swift in Sources */,
 			);
