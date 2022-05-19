@@ -113,6 +113,7 @@
                     <tabBarItem key="tabBarItem" title="Search" image="magnifyingglass" catalog="system" id="MRt-fi-vVU"/>
                     <navigationItem key="navigationItem" id="CNq-7i-Ban"/>
                     <connections>
+                        <outlet property="searchValue" destination="UyE-kd-qsn" id="9Ng-ZW-U0L"/>
                         <outlet property="tableValue" destination="XNc-OZ-bQv" id="SQn-r1-tdN"/>
                     </connections>
                 </viewController>

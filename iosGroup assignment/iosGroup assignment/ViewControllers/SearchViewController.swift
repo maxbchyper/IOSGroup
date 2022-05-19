@@ -16,13 +16,11 @@ class SearchViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     var searchValue: String = ""
-
-    @IBAction func SearchValue(_ sender: Any) {
-    }
+    @IBOutlet weak var SearchValueInput: UITextField!
     
     @IBAction func Search(_ sender: Any) {
         print("search!")
-        var request = URLRequest(url: URL(string: "https://api.themoviedb.org/3/search/movie?api_key=392edc2e9b59a6d9b11f639b3c2a0f26&language=en-US&query=abc&page=1&include_adult=false")!)
+        var request = URLRequest(url: URL(string: "https://api.themoviedb.org/3/search/movie?api_key=392edc2e9b59a6d9b11f639b3c2a0f26&language=en-US&query=" + (SearchValueInput.text ?? "a") + "&page=1&include_adult=false")!)
         request.httpMethod = "GET"
         let session = URLSession.shared
         let task = session.dataTask(with: request, completionHandler: { data, response, error -> Void in
@@ -47,23 +45,6 @@ class SearchViewController: UIViewController {
     
     @IBOutlet weak var tableValue: UITableView!
     
-    @IBAction func SearchText(_ sender: Any) {
-        print("search!")
-        var request = URLRequest(url: URL(string: "https://api.themoviedb.org/3/search/movie?api_key=392edc2e9b59a6d9b11f639b3c2a0f26&language=en-US&query=abc&page=1&include_adult=false")!)
-        request.httpMethod = "GET"
-        let session = URLSession.shared
-        let task = session.dataTask(with: request, completionHandler: { data, response, error -> Void in
-            print(response!)
-            do {
-                let json = try JSONSerialization.jsonObject(with: data!) as! Dictionary<String, AnyObject>
-                print(json)
-            } catch {
-                print("error")
-            }
-        })
-
-        task.resume()
-    }
     
 }
 
