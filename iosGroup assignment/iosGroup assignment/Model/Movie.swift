@@ -19,4 +19,12 @@ struct Movie: Decodable {
     let voteAverage: Double
     let voteCount: Int
     let runTime: Int?
+    
+    
+    var backdropURL: URL {
+        return URL(string: "https://image.themoviedb.org/3/t/p/w500\(backdropPath ?? "")")!
+    }
+    var posterURL: URL {
+        return URL(string: "https://image.themoviedb.org/3/t/p/w500\(posterPath ?? "")")!
+    }
 }
