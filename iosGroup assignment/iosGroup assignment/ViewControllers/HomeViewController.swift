@@ -3,7 +3,7 @@
 //  iosGroup assignment
 //
 //  Created by Claire Ongley on 18/5/22.
-//
+// Tried really hard to get this working without being hardcoded. Unfortunately that didn't work. Idea was that the posters/backdrops would come from the api which is 
 
 import Foundation
 import UIKit

@@ -7,6 +7,7 @@
 
 import Foundation
 //This extension refers to a preexisting JSON for debugging purposes.
+//supposed to be used to preview views but as we were using interface builder it ended up not being as helpful
 
 
 

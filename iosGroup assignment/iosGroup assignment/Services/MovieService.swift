@@ -3,7 +3,7 @@
 //  iosGroup assignment
 //
 //  Created by Claire Ongley on 19/5/22.
-//
+//  api and error stuff in here
 
 import Foundation
 

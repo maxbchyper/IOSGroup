@@ -3,7 +3,7 @@
 //  iosGroup assignment
 //
 //  Created by Claire Ongley on 19/5/22.
-//
+//  how the api is supposed to get the correct files for posters and other details.
 
 import Foundation
 

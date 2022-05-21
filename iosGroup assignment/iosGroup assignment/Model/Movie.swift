@@ -3,7 +3,7 @@
 //  iosGroup assignment
 //
 //  Created by Claire Ongley on 19/5/22.
-//
+//  movie model used by movie store and movieservice api calls
 
 import Foundation
 struct MovieResponse: Decodable {

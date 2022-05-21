@@ -3,7 +3,7 @@
 //  iosGroup assignment
 //
 //  Created by Claire Ongley on 19/5/22.
-//
+//  this file is literally just the searches we wanted so that we could share them as a group. It does not exist to be used. 
 
 import Foundation
 var searchInput = "abc"
